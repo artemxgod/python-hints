@@ -1,0 +1,45 @@
+Python was created in 1991
+
+# Origin
+
+It is used for different purposes in development such as:
+- BackEnd web development
+- Math
+- Scripting
+
+# Start
+
+Python files has .py extension. 
+To enter python command line write python
+
+# Syntax
+
+Indentations (spaces at the start of line) in python indicates a block of code
+
+'#' used to start writing a comment
+
+"""
+a
+""" is a way to write multiple line of comments
+
+## Variables
+
+No command for declaring a variable, must be assigned to create
+
+A variable name must start with a letter or the underscore character
+A variable name cannot start with a number
+A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+Variable names are case-sensitive (age, Age and AGE are three different variables)
+A variable name cannot be any of the Python keywords.
+
+# types
+Text Type:	str
+Numeric Types:	int, float, complex
+Sequence Types:	list, tuple, range
+Mapping Type:	dict
+Set Types:	set, frozenset
+Boolean Type:	bool
+Binary Types:	bytes, bytearray, memoryview
+None Type:	NoneType
+
+type() -- method to get type
