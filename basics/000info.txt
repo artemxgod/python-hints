@@ -61,3 +61,8 @@ Python Operators Precedence:
 10 is, is not
 11 in, not in
 12 not, or, and
+
+loops are used to iterate over a sequence (list, tuple, string) or other iterable objects
+loop can be for or while, they can have else statement
+
+match is used as switch

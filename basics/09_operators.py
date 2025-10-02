@@ -72,7 +72,7 @@ d = "To"
 print (a, "in", var, ":", a in var)
 print (b, "in", var, ":", b in var)
 print (c, "in", var, ":", c in var)
-print (d, "in", var, ":", d in var)
+print (d, "in", var, ":", d in var) 
 
 # identity operators compare the memory locations of two objects
 # is is not
