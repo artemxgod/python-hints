@@ -53,3 +53,4 @@ while (i < 25):
         j = j+1
     if j > math.sqrt(i): print("{} is prime".format(i))
     i = i + 1
+    

@@ -62,7 +62,42 @@ Python Operators Precedence:
 11 in, not in
 12 not, or, and
 
+## control flow
+
 loops are used to iterate over a sequence (list, tuple, string) or other iterable objects
 loop can be for or while, they can have else statement
 
 match is used as switch
+
+## function
+
+### signature
+
+def function_name( parameters ):
+    "function_dostring"
+    function_suite
+    return [expression]
+
+Неизменяемые объекты (числа, строки, кортежи) передаются как по значению
+
+Изменяемые объекты (списки, словари, множества) передаются как по ссылке
+
+The behavior also depends on whether the passed object is mutable or immutable. 
+Python numeric object is immutable.
+When a numeric object is passed, 
+and then the function changes the value of the formal argument,
+it actually creates a new object in the memory,
+leaving the original variable unchanged.
+
+### parameters order
+
+positional -> regular -> default -> arbitary -> keyword-only -> arbitary keyword
+
+def function(a, /, b, c=3, *args, *, d, **kwargs):
+
+## Module 
+
+A module is a file containing definition of functions, classes, variables, constants or any other Python object
+
+- import all names from module `from modname import *`
+- assign an alias to module `from modulename as alias`
