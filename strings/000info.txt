@@ -1,0 +1,15 @@
+# Strings
+
+### String is a sequence of characters
+### String is immutable
+
+## String operators
+
+# + concatenation
+# * repetition
+# [] indexing
+# [:] slicing
+# in/not in membership test
+# r/R for raw string (Suppresses actual meaning of Escape characters)
+# % formatting
+
