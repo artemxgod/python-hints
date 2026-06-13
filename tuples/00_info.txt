@@ -1,0 +1,4 @@
+Python tuple is a sequence of comma separated items, enclosed in parentheses (). 
+The items in a Python tuple need not be of same data type.
+
+Tuple is an immutable sequence,

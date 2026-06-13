@@ -31,3 +31,16 @@ def dropNums(mystr):
     return "".join(res)
 
 print(mystr, dropNums(mystr))
+
+# 3 Python program to drop all digits from a string.
+
+mystr = 'He12llo, Py00th55on!'
+digits = '1234567890' # or digits = [str(x) for x in range(10)]
+chars = []
+
+for sym in mystr:
+    if sym not in digits:
+        chars.append(sym)
+mystr = ''.join(chars)
+print(mystr)
+
